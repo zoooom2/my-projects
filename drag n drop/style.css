@@ -1,0 +1,22 @@
+.empty{
+    background-color: white;
+}
+
+.fill{
+    width:100%;
+    height: 100%;
+    background-image: url(pexels-aleksandar-pasaric-325185.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.hold{
+    border: 5px solid #ccc;
+}
+
+.hovered{
+    background-color: #333;
+    border-color: #fff; 
+    border-style: dashed;
+
+}

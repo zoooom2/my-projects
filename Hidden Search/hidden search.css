@@ -1,0 +1,31 @@
+hmtl{
+  box-sizing: border-box;
+}
+
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+body{
+  margin:0;
+}
+
+.container{
+  width:100vw;
+  min-height: 100vh;
+  background:beige;
+  display: flex;
+  align-items: center;
+  justify-content:center
+}
+
+#searchBox{
+  height: 32px;
+  visibility:hidden;
+  transition: all 0.5s ease-in
+}
+#searchBox.tap{
+  visibility:visible
+}
+button{
+  height:32px;
+}

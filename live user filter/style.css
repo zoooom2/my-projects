@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container{
+  width:300px;
+  
+  border:none;
+  
+  display:flex;
+  flex-direction:column;
+  
+  height:450px;
+  /* overflow:auto */
+
+}
+.blueetop{
+  width:100%;
+  /* height:150px; */
+  background-color:rgb(0,0,240);
+  color:white;
+  padding: 25px 15px;
+  border-radius: 5px 5px 0 0;
+  border:none
+}
+.header{
+  font-weight: bold;
+  font-size:medium;
+  margin-bottom:3px
+}
+
+.instruction{
+  font-size: 12px;
+  margin-bottom:15px
+}
+
+input{
+  width: 100%;
+  border:none;
+  background-color: rgba(0,0,0,0.3);
+  border: none;
+  border-radius:15px;
+  padding:8px 15px;
+  color:white;
+}
+
+input::placeholder{
+  color:rgba(255,255,255,0.5)
+}
+input:focus{
+  outline:none;
+}
+
+.bottom{
+  display:flex;
+  flex-direction:column;
+  border-bottom: 1px solid rgba( 0, 0, 0, 0.3);
+  /* border:1px solid green; */
+  width:100%;
+  /* padding: 15px 25px; */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+ul{
+  list-style: none;
+  width: 100%;
+  padding:0;
+  display: flex;
+  flex-direction:column;
+}
+
+li{
+  display:flex;
+  width: 100%;
+  /* margin-top: 10px; */
+  border-bottom: 2px solid rgba( 0, 0, 0, 0.3);
+  margin:0 10px 18px 10px;
+  padding-bottom: 10px;
+  /* justify-content: center; */
+  /* border: 1px solid red */
+}
+.image{
+  background-image: url(pexels-yury-kim-585419.jpg);
+  border:none;
+  border-radius:50%;
+  background-size: cover;
+  background-position: center center;  
+  margin:0 5px;
+  height: 50px;
+  width:25%;
+}
+
+.details{
+  padding-left:10px
+}
+.name{
+  font-size:15px;
+  font-weight:bold;
+}
+.location{
+  font-size:small;
+  display: grid;
+  place-items: center;
+}
+
+.hide{
+  display:none
+}

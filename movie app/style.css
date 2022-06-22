@@ -1,0 +1,70 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(49, 48, 121);
+    overflow-x: hidden;
+}
+main{
+    width: 100%; 
+    overflow-x: hidden;
+    height:auto;
+
+    
+}
+
+.movies-pane{
+    width: 100%;
+    /* align-content:flex-start; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:relative;
+}
+
+
+.container{
+    height:32rem;
+    /* flex: 1; */
+    flex-basis: 280px;
+    position:relative;
+    max-width: 280px;  
+      
+}
+
+.movie-pane{
+    
+}
+
+.test{
+    height:100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.overview{
+    visibility:hidden;
+    transition: all 0.8s ease-out 0.2s;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: 600;
+    height:0px;
+    overflow: hidden;
+    /* position:absolute; */
+    left:0;
+    right:0;
+    bottom:0;
+    padding:15px;
+
+    
+}
+
+.overview.show{
+    visibility:visible;
+    
+    transform:translateY(-100%);
+    height:auto;
+    max-height: 100%;
+    
+
+}

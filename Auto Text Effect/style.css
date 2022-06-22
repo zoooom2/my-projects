@@ -1,0 +1,48 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing:inherit
+}
+
+body{
+    margin:0;
+    padding:10px;
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+}
+
+.control{
+  position: absolute;
+  bottom: 10px;
+  background-color: transparent;
+  padding:10px;
+  border:none;
+  background-color:rgba(0,0,0,0.2);
+  border-radius: 2px; 
+}
+input{
+    width:50px;
+    background-color:rgba(255,255,255,0.8);
+    border:none;
+    border-radius:2px;
+    padding:3px 8px;
+}
+input:focus{
+    outline: none
+}
+
+.text{
+    transition: all 0.5 ease;
+}
+
+    
+    
+

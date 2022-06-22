@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background: steelblue;
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+div:first-child{
+    width:0;
+    height:0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #000000;
+    transform-origin: bottom;
+    transition: all 1s ease;
+}
+
+@keyframes rotate1{
+    100%{
+        transform:rotate(150deg)
+    }
+}
+
+
+#bottomTriangle{
+    width:0;
+    height:0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #000000;
+    transition: all 1s ease;
+    transform-origin: top;
+}
+
+@keyframes rotate2{
+    100%{
+        transform:rotate(150deg)
+    }
+}

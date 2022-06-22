@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+.flex-container {
+  display: flex;
+  width:80vw;
+  height: 90vh;
+  border: 2px solid blue;
+  align-items: center;
+  color: white;
+  margin:auto;
+}
+
+.flex-items {
+  display: flex;
+  flex: 1;
+  /* justify-content:space-between; */
+  margin: 10px;
+  /* border: 5px solid red; */
+  justify-content: center;
+  margin: 10px;
+  height: 80vh;
+  
+}
+img {
+  width: 100%;
+  border-radius: 30px;
+  transition: flex 2s ease 0;
+}
+
+.slick {
+  flex: 5;
+}
